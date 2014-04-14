@@ -1,0 +1,21 @@
+{
+  "name": "tessel-logo",
+  "version": "0.0.1",
+  "description": "Generates the Tessel logo in a variety of formats.",
+  "main": "logo.js",
+  "dependencies": {
+    "xmlbuilder": "~2.2.1"
+  },
+  "optionalDependencies": {
+    "rendersvg": "~0.1.0"
+  },
+  "bin": {
+    "tessel-logo": "./logo.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
