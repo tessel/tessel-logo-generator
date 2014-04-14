@@ -16,6 +16,6 @@ and *boom*
 
 ![Tessel Logo](http://imgur.com/g37w4HQ.png)
 
-# license
+# copyright
 
-MIT
+The Tessel logo is copyright Technical Machine. Please use responsibly.
