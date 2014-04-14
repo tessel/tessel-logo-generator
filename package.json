@@ -1,6 +1,6 @@
 {
   "name": "tessel-logo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Generates the Tessel logo in a variety of formats.",
   "main": "logo.js",
   "repository": "https://github.com/tessel/tessel-logo.git",

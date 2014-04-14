@@ -16,6 +16,13 @@ and *boom*
 
 ![Tessel Logo](http://imgur.com/g37w4HQ.png)
 
-# copyright
+## contributors
 
-The Tessel logo is copyright Technical Machine. Please use responsibly.
+* Tim Ryan <tim@timryan.org>
+* Nicolas Bevacqua <hub@bevacqua.io>
+
+## copyright
+
+The Tessel logo is trademarked, copyrighted Technical Machine. Please use responsibly.
+
+Source code is licensed under MIT.
