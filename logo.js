@@ -93,8 +93,9 @@ if (require.main == module) {
 		case 'png':
 		case 'gif':
 		case 'jpg':
+		case 'jpeg':
 		case 'pdf':
-			console.log('Rendering using phantomjs (make sure you have this installed)...')
+			console.error('Rendering using phantomjs (make sure you have this installed)...')
 			var rendersvg = require('rendersvg');
 			rendersvg.render(xml, process.argv[2], function (err, data) {
 				process.stdout.write(data);
