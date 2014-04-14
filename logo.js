@@ -88,6 +88,7 @@ if (require.main == module) {
 		case 'html':
 			var template = fs.readFileSync(__dirname + '/template.html', 'utf-8');
 			console.log(template.replace('<!--svg-->', xml));
+			break;
 
 		case 'png':
 		case 'gif':
