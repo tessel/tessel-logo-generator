@@ -1,14 +1,11 @@
 {
   "name": "tessel-logo-generator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generates the Tessel logo in a variety of formats.",
   "main": "logo.js",
-  "repository": "https://github.com/tessel/tessel-logo.git",
+  "repository": "https://github.com/tessel/tessel-logo-generator.git",
   "dependencies": {
     "xmlbuilder": "~2.2.1"
-  },
-  "optionalDependencies": {
-    "rendersvg": "~0.1.0"
   },
   "bin": {
     "tessel-logo": "./logo.js"
