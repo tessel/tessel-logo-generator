@@ -57,18 +57,18 @@ var xml = builder.create({svg: [{
 		'@transform': "translate(500, 500)",
 		'@stroke-width': 36,
 		'@stroke-linecap': 'round',
-		'@stroke': '#ff3333',
+		'@stroke': '#ff4444',
 		'@fill': 'none',
 	}].concat(paths)
 	},
 	{ path: [{
 		'@transform': "translate(500, 480)",
-		'@fill': '#ff3333',
+		'@fill': '#ff4444',
 		'@d': pathify(Tpaths) + ' Z'
 	}]},
 	{ path: [{
 		'@transform': "translate(500, 480) scale(-1, 1)",
-		'@fill': '#ff3333',
+		'@fill': '#ff4444',
 		'@d': pathify(Tpaths) + ' Z'
 	}]},
 ]}).toString({pretty: true});
