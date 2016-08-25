@@ -83,7 +83,7 @@ var xml = builder.create({svg: [{
 exports.svg = xml;
 
 if (require.main == module) {
-  if (process.argv.length < 3) {
+  if (process.argv.length < 2) {
     console.error('Usage: tessel-logo-generator');
     console.error('')
     console.error('Outputs an SVG of the Tessel logo.');
