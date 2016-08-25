@@ -1,15 +1,15 @@
-# tessel-logo
+# tessel-logo-generator
 
 Renders the Tessel logo in SVG, with conversion available for HTML, PNG, GIF, JPEG, and PDF.
 
 ```
-npm install -g tessel-logo
+npm install -g tessel-logo-generator
 ```
 
 then
 
 ```
-$ tessel-logo png > tessel.png
+$ tessel-logo-generator png > tessel.png
 ```
 
 and *boom*
