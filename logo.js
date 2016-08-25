@@ -15,7 +15,7 @@ var radius = 430;
 var points = [];
 var paths = [];
 for (var i = 0; i < 3; i++) {
-	var t = 0.12;
+	var t = 0.10;
 	var v = 150/180*Math.PI;
 	var w = 210/180*Math.PI;
 	var x = 270/180*Math.PI;
@@ -39,12 +39,12 @@ var Twidth = radius/7
 var spread = Twidth/7;
 
 var Tpaths = [
-	[-Twidth*3 -spread, -Twidth*2],
+	[-Twidth*3 -spread, -Twidth*1.9],
 	[-Twidth*3 -spread, -Twidth*.5],
 	[-Twidth -spread, -Twidth*.5],
 	[-Twidth -spread, Twidth*3.5],
 	[-spread, Twidth*3.5],
-	[-spread, -Twidth*2],
+	[-spread, -Twidth*1.9],
 ];
 
 // <path stroke-width="10" stroke="black" fill="none"  d="M500 0 L500 1000 Z" />
